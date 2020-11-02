@@ -722,6 +722,9 @@ header{
   #About {
     height: auto;
   } 
+  .header-desc-part2{
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

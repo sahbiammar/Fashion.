@@ -60,7 +60,7 @@
                     <div class="header-desc-part1-desc">
                         <span class="header-desc-line"></span>
                         <p  class="anim2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> 
-                        <div class="wrap">
+                        <div class="wrap" data-aos="fade-left" data-aos-delay="400">
                             <div class="wrap-inner">
                                 <h1>Learn more</h1>
                             </div>
@@ -105,8 +105,7 @@
             <span class="header-desc-line" ></span>
  
             <h1 class="collections-title" 
-                data-aos="fade-up"
-                data-aos-easing="ease-in-out" 
+                data-aos="fade-up" 
                 data-aos-delay="100" > Collections </h1>
 
             
@@ -188,7 +187,7 @@
                 <img src="images/xs_1_img_5.jpg.pagespeed.ic.I1m2Kn5W_C.jpg" alt="">
             </div>
             <div class="Boutique-desc-img2" data-aos="fade-down" data-aos-delay="600">
-                <img src="images/xs_1_img_4.jpg.pagespeed.ic.4vNCeFYgXq.jpg" alt="">
+                <img src="images/xs_1_img_2.jpg.pagespeed.ic._Hs7RdVEhy.jpg" alt="">
             </div>
         </div>
     </section>
@@ -251,7 +250,7 @@
                 <div class="about-social">
                     <span class="header-desc-line"></span>
                     <div class="about-titles" data-aos="fade-right" data-aos-delay="300">About</div>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                    <p data-aos="fade-left" data-aos-delay="700">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
 
 
                     <span class="header-desc-line"></span> 
@@ -338,9 +337,8 @@
             
             gsap.from(".header-desc-line", {opacity:0, delay: 1.8, ease: "bounce.out", duration: 2, y: -50}); 
 
-            gsap.from(".anim2", {opacity:0, delay: 2.3 ,  ease: "elastic.out (1, 0.3)" , duration: 1, z: -100}); 
+            gsap.from(".anim2", {opacity:0, delay: 2.3 ,  ease: "elastic.out (1, 0.3)" , duration: 1, x: -50}); 
 
-            gsap.from(".wrap", {stagger:1 ,opacity:0, delay: 2.6 , ease: "expo.out" , duration: 1, x: 100}); 
             
             gsap.from(".swiper-container", {  opacity:0, delay: 3.2 , ease: "bounce.out" , duration: 2, x: 100}); 
  
